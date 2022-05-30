@@ -1,0 +1,62 @@
+{% extends 'college/adminbase.html' %}
+{% load static %}
+
+
+
+
+{% block content %}
+
+<head>
+  <style media="screen">
+    .alert {
+      margin-left: 25%;
+      margin-right: 25%;
+      padding: 20px;
+      background-color: #f44336;
+      color: white;
+    }
+
+    .w3-panel p {
+      padding-top: 10px;
+    }
+
+    .closebtn {
+      margin-left: 15px;
+      color: white;
+      font-weight: bold;
+      float: right;
+      font-size: 22px;
+      line-height: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .closebtn:hover {
+      color: black;
+    }
+
+
+  </style>
+  <link rel="stylesheet" href="https://www.w3colleges.com/w3css/4/w3.css">
+
+</head>
+<br>
+
+{%include 'college/admin_dashboard_cards.html'%}
+{% include 'college/pie-chart.html' %}
+
+<br><br>
+<center>
+  <div class="alert alert-danger">
+  <p><strong>Notice Board</strong></p>
+  </div><br></center> 
+{%for n in notice%}
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Posted on {{n.date}} </strong><br><b>By : {{n.by}}</b><br> {{n.message}}
+</div>
+{%endfor%}
+
+
+
+{% endblock content %}

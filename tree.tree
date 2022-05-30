@@ -1,0 +1,154 @@
+sggs_college_managemet                                            
+├─ college                                                        
+│  ├─ migrations                                                  
+│  │  ├─ __pycache__                                              
+│  │  │  ├─ 0001_initial.cpython-310.pyc                          
+│  │  │  ├─ 0002_auto_20220525_1649.cpython-310.pyc               
+│  │  │  ├─ 0003_teacherextra_teacher_profile.cpython-310.pyc     
+│  │  │  └─ __init__.cpython-310.pyc                              
+│  │  ├─ 0001_initial.py                                          
+│  │  ├─ 0002_auto_20220525_1649.py                               
+│  │  ├─ 0003_teacherextra_teacher_profile.py                     
+│  │  └─ __init__.py                                              
+│  ├─ __pycache__                                                 
+│  │  ├─ admin.cpython-310.pyc                                    
+│  │  ├─ forms.cpython-310.pyc                                    
+│  │  ├─ models.cpython-310.pyc                                   
+│  │  ├─ views.cpython-310.pyc                                    
+│  │  └─ __init__.cpython-310.pyc                                 
+│  ├─ admin.py                                                    
+│  ├─ apps.py                                                     
+│  ├─ forms.py                                                    
+│  ├─ models.py                                                   
+│  ├─ tests.py                                                    
+│  ├─ views.py                                                    
+│  └─ __init__.py                                                 
+├─ media                                                          
+│  ├─ images                                                      
+│  │  ├─ 6.png                                                    
+│  │  └─ Untitled_2.png                                           
+│  └─ profile_pic                                                 
+│     ├─ StudentProfile_pic                                       
+│     │  ├─ 1649329287156.jpg                                     
+│     │  ├─ 1649329287156_ViuCpYB.jpg                             
+│     │  ├─ 37646.jpg                                             
+│     │  ├─ 6.png                                                 
+│     │  ├─ FB_IMG_16082898850816410.jpg                          
+│     │  ├─ FB_IMG_16082898850816410_h0AqfQc.jpg                  
+│     │  ├─ FB_IMG_16082898850816410_PqzSYu3.jpg                  
+│     │  ├─ IMG_20210726_130212.jpg                               
+│     │  ├─ Photo.jpg                                             
+│     │  ├─ Photo_4hr8GgQ.jpg                                     
+│     │  ├─ Photo_gEQRuDl.jpg                                     
+│     │  ├─ Photo_yjKHYV1.jpg                                     
+│     │  ├─ WhatsApp_Image_2022-05-13_at_7.11.22_PM.jpeg          
+│     │  ├─ WhatsApp_Image_2022-05-13_at_7.11.22_PM_0mkX2Pu.jpeg  
+│     │  ├─ WhatsApp_Image_2022-05-13_at_7.11.22_PM_Cayy75X.jpeg  
+│     │  ├─ WhatsApp_Image_2022-05-13_at_7.11.22_PM_mxINoDQ.jpeg  
+│     │  ├─ WhatsApp_Image_2022-05-13_at_7.11.22_PM_tGlFRFy.jpeg  
+│     │  ├─ WhatsApp_Image_2022-05-26_at_3.12.40_PM.jpeg          
+│     │  ├─ WhatsApp_Image_2022-05-26_at_3.12.40_PM_dMSyta1.jpeg  
+│     │  └─ WhatsApp_Image_2022-05-26_at_3.13.06_PM.jpeg          
+│     └─ StudentProfile_picPic                                    
+│        ├─ FB_IMG_16082898850816410.jpg                          
+│        └─ FB_IMG_16082898850816410_IJikEXc.jpg                  
+├─ sggs_college_managemet                                         
+│  ├─ __pycache__                                                 
+│  │  ├─ settings.cpython-310.pyc                                 
+│  │  ├─ urls.cpython-310.pyc                                     
+│  │  ├─ wsgi.cpython-310.pyc                                     
+│  │  └─ __init__.cpython-310.pyc                                 
+│  ├─ asgi.py                                                     
+│  ├─ settings.py                                                 
+│  ├─ urls.py                                                     
+│  ├─ wsgi.py                                                     
+│  └─ __init__.py                                                 
+├─ static                                                         
+│  ├─ css                                                         
+│  ├─ fonts                                                       
+│  ├─ images                                                      
+│  │  ├─ admin-icn.png                                            
+│  │  ├─ amar.jpg                                                 
+│  │  ├─ amit.jpeg                                                
+│  │  ├─ EmpClass1.jpg                                            
+│  │  ├─ indexb.jpg                                               
+│  │  ├─ indexb112.png                                            
+│  │  ├─ indexb2.jpg                                              
+│  │  ├─ indexb3.jpg                                              
+│  │  ├─ l1.jpg                                                   
+│  │  ├─ logo.svg                                                 
+│  │  ├─ signin-image.jpg                                         
+│  │  ├─ signup-image.jpg                                         
+│  │  ├─ user-default.png                                         
+│  │  └─ User0icon.png                                            
+│  └─ profile_pic                                                 
+│     ├─ StudentProfile_pic                                       
+│     └─ User0icon.png                                            
+├─ templates                                                      
+│  └─ college                                                     
+│     ├─ aboutus.html                                             
+│     ├─ adminbase.html                                           
+│     ├─ adminclick.html                                          
+│     ├─ adminlogin.html                                          
+│     ├─ adminsignup.html                                         
+│     ├─ admin_add_student.html                                   
+│     ├─ admin_add_teacher.html                                   
+│     ├─ admin_approve_student.html                               
+│     ├─ admin_approve_teacher.html                               
+│     ├─ admin_attendance.html                                    
+│     ├─ admin_dashboard.html                                     
+│     ├─ admin_dashboard_cards.html                               
+│     ├─ admin_fee.html                                           
+│     ├─ admin_notice.html                                        
+│     ├─ admin_student.html                                       
+│     ├─ admin_take_attendance.html                               
+│     ├─ admin_teacher.html                                       
+│     ├─ admin_teacher_student_card.html                          
+│     ├─ admin_update_student.html                                
+│     ├─ admin_update_teacher.html                                
+│     ├─ admin_view_attendance_ask_date.html                      
+│     ├─ admin_view_attendance_page.html                          
+│     ├─ admin_view_fee.html                                      
+│     ├─ admin_view_student.html                                  
+│     ├─ admin_view_student_fee.html                              
+│     ├─ admin_view_teacher.html                                  
+│     ├─ admin_view_teacher_salary.html                           
+│     ├─ city_dropdown_list_options.html                          
+│     ├─ contactus.html                                           
+│     ├─ contactussuccess.html                                    
+│     ├─ dist_dropdown_list_options.html                          
+│     ├─ download.html                                            
+│     ├─ footer.html                                              
+│     ├─ homebase.html                                            
+│     ├─ index.html                                               
+│     ├─ navbar.html                                              
+│     ├─ pie-chart.html                                           
+│     ├─ pie_chart.html                                           
+│     ├─ studentbase.html                                         
+│     ├─ studentclick.html                                        
+│     ├─ studentlogin.html                                        
+│     ├─ studentsignup.html                                       
+│     ├─ student_dashboard.html                                   
+│     ├─ student_dashboard_cards.html                             
+│     ├─ student_view_attendance_ask_date.html                    
+│     ├─ student_view_attendance_page.html                        
+│     ├─ student_wait_for_approval.html                           
+│     ├─ success.html                                             
+│     ├─ success1.html                                            
+│     ├─ success2.html                                            
+│     ├─ teacherbase.html                                         
+│     ├─ teacherclick.html                                        
+│     ├─ teacherlogin.html                                        
+│     ├─ teachersignup.html                                       
+│     ├─ teacher_attendance.html                                  
+│     ├─ teacher_dashboard.html                                   
+│     ├─ teacher_dashboard_cards.html                             
+│     ├─ teacher_notice.html                                      
+│     ├─ teacher_take_attendance.html                             
+│     ├─ teacher_view_attendance_ask_date.html                    
+│     ├─ teacher_view_attendance_page.html                        
+│     ├─ teacher_wait_for_approval.html                           
+│     ├─ upload.html                                              
+│     └─ village_dropdown_list_options.html                       
+├─ db.sqlite3                                                     
+└─ manage.py                                                      
